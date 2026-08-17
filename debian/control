@@ -1,0 +1,13 @@
+Package: serial-terminal
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: @ARCH@
+Depends: libc6 (>= 2.17), libgtk-3-0 (>= 3.12)
+Maintainer: susmaz <susmaz@localhost>
+Description: Simple GTK3 serial port terminal
+ A simple serial port terminal for Linux built with GTK3 and Glade.
+ It scans for serial ports, supports baud rates up to 921600, configurable
+ data bits, parity, stop bits and flow control, hex receive/send mode,
+ timestamps, auto-scroll, visible control-character display (\n, \r, ...),
+ settings persistence and non-blocking transmit.

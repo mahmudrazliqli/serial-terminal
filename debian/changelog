@@ -1,0 +1,18 @@
+serial-terminal (1.1.0-1) unstable; urgency=medium
+
+  * Show control characters (\n, \r, NUL, ...) as visible U+2400 symbols
+    via a new "Show controls" toggle; receive area now prefers fonts that
+    carry those glyphs (Cascadia Mono, Everson Mono).
+  * Persist settings (last port, baud, data/parity/stop/flow, line ending,
+    hex RX/TX, timestamps, auto-scroll, show-controls) in
+    ~/.config/serial-terminal/config.cfg; restored on startup.
+  * New custom application icon (DB9 serial connector).
+
+ -- susmaz <susmaz@localhost>  Thu, 14 Aug 2026 00:00:00 +0000
+
+serial-terminal (1.0.0-1) unstable; urgency=medium
+
+  * Initial release: GTK3/Glade serial port terminal with port scanning,
+    baud/parity/stop/flow settings, hex RX/TX, timestamps and auto-scroll.
+
+ -- susmaz <susmaz@localhost>  Thu, 14 Aug 2026 00:00:00 +0000

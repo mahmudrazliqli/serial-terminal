@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Serial Terminal
+GenericName=Serial Port Terminal
+Comment=Simple GTK3 serial port terminal
+Exec=serial-terminal
+Icon=serial-terminal
+Terminal=false
+Categories=Utility;Monitor;HardwareSettings;
+Keywords=serial;uart;terminal;arduino;tty;
